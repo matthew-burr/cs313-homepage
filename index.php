@@ -5,6 +5,7 @@
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="main.css" />
   </head>
   <body>
     <nav class="navbar navbar-inverse">
@@ -18,15 +19,21 @@
         </ul>
       </div>
     </nav>
-    <div class="container">
+    <div class="container-fluid">
       <div class="row">
         <div class="col-md-12">
           <h1>Matt Burr's Homepage</h1>
         </div>
       </div>
       <div class="row">
-        <div class="col-md-4">
-          <img src="MattBurr.jpg" style="width:360px; border:1px solid black;" />
+        <div class="col-md-3">
+          <div class="thumbnail">
+            <img id="myPicture" src="MattBurr.jpg" class="img-responsive" />
+            <div class="caption">
+              <h3>About Me</h3>
+              <p>I live in Texas. I love to program. I'm an avid reader, and an amateur magician.</p>
+            </div>
+          </div>
         </div>
         <div class="col-md-8">
           <h2>About Me</h2>
