@@ -28,7 +28,7 @@
       <div class="row">
         <div class="col-md-3">
           <div class="thumbnail">
-            <img id="myPicture" src="MattBurr.jpg" class="img-responsive" />
+            <img id="myPicture" src="MattBurr.jpg" alt="Picture of Matt Burr" class="img-responsive" />
             <div class="caption">
               <h3>About Me</h3>
               <p>I live in Texas. I love to program. I'm an avid reader, and an amateur magician.</p>
