@@ -4,6 +4,7 @@
     <title>Matt Burr's Home</title>
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.js" integrity="sha256-tA8y0XqiwnpwmOIl3SGAcFl2RvxHjA8qp0+1uCGmRmg=" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="main.css" />
   </head>
@@ -28,7 +29,7 @@
       <div class="row">
         <div class="col-md-3">
           <div class="thumbnail">
-            <img id="myPicture" src="MattBurr.jpg" alt="Picture of Matt Burr" class="img-responsive" />
+            <img id="myPicture" src="MattBurr.jpg" alt="Pictures of Matt Burr" class="img-responsive" />
             <div class="caption">
               <h3>About Me</h3>
               <p>I live in Texas. I love to program. I'm an avid reader, and an amateur magician.</p>
@@ -99,5 +100,6 @@
         </div>
       </div>
     </div>
+    <script src="main.js" type="text/javascript"></script>
   </body>
 </html>
