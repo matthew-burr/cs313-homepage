@@ -28,16 +28,21 @@
       </div>
       <div class="row">
         <div class="col-md-3">
-          <div class="thumbnail">
+          <div id="myPictureBox" class="thumbnail">
             <img id="myPicture" src="MattBurr.jpg" alt="Pictures of Matt Burr" class="img-responsive" />
-            <div class="caption">
+            <div id="myPictureCaption" class="caption">
               <h3>About Me</h3>
               <p>I live in Texas. I love to program. I'm an avid reader, and an amateur magician.</p>
+            </div>
+            <div id="myPictureControls">
+              <button id="pausePlayButton" type="button">
+                <span class="glyphicon glyphicon-pause" />
+              </button>
             </div>
           </div>
         </div>
         <div class="col-md-8">
-          <h2>Magic</h2>
+          <h2>My Interest in Magic</h2>
           <p>When I was a little boy, maybe 4 years old, I stumbled across a magic kit belonging to my father. Inside were all sorts of tricks with foam balls,
           paddles, cards, and the like. My favorite involved a little sheet of rubber that you could stretch across the mouth of a cup, and then place a coin atop
           it. With a simple tap, the coin would pass through the rubber sheet and into the cup. I spent hours playing with that. That magic kit was my first 

@@ -11,7 +11,7 @@
     <nav class="navbar navbar-inverse">
       <div class="container-fluid">
         <div class="navbar-header">
-          <a class="navbar-brand" href="#">MB</a>
+          <a class="navbar-brand" href="index.php">MB</a>
         </div>
         <ul class="nav navbar-nav">
           <li><a href="index.php">home</a></li>
@@ -19,6 +19,7 @@
         </ul>
       </div>
     </nav>
+    <h1>Coming soon!</h1>
   </body>
 </html>
 

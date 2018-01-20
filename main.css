@@ -2,3 +2,10 @@
   border-radius: 0;
 }
 
+#myPictureControls {
+  text-align: right !important;
+}
+
+#pausePlayButton {
+  display: none;
+}
